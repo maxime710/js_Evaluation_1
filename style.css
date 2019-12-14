@@ -1,0 +1,19 @@
+body
+{
+    margin: 0;
+}
+
+.colone
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+input
+{
+    margin-top: 15px;
+
+}
+
+
+

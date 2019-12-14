@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>budjet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="colone" id="Calcul-depence">
+    <h1>Depence</h1>
+    <ul>
+        <h2>Les dépences fixes :</h2>
+        <li id="dep_1" >loyer et charge : <input type="number"class="depence" value="0"></li>
+        <li id="dep_2">remboursement de crédits : <input type="number" class="depence" value="0"></li>
+        <li id="dep_3" >eau/électricité/gaz : <input type="number" class="depence" value="0"></li>
+        <li id="dep_4">téléphone - internet : <input type="number" class="depence" value="0"></li>
+        <li id="dep_5">assurance habitation : <input type="number" class="depence" value="0"></li>
+        <li id="dep_6">assurance véhicules : <input type="number" class="depence" value="0"></li>
+        <li id="dep_7">mutuelle santé : <input type="number" class="depence" value="0"></li>
+        <li id="dep_8">frais de garde : <input type="number" class="depence" value="0"></li>
+        <li id="dep_9">impôts sur le revenu : <input type="number" class="depence" value="0"></li>
+        <li id="dep_10">impôts locaux : <input type="number" class="depence" value="0"></li>
+
+
+    </ul>
+
+    <ul>
+        <h2>les déppences courantes : </h2>
+        <li id="cou_1">courses :<input type="number" class="depence" value="0"></li>
+        <li id="cou_2">essence/frais de transport en commun : <input type="number" class="depence" value="0"></li>
+        <li id="cou_3">activités sportives et culturelles : <input type="number" class="depence" value="0"></li>
+
+    </ul>
+
+
+</div>
+
+<div class="colone" id="Calcul-recette">
+
+    <ul>
+        <h2>Les dépennces occasionnelles : </h2>
+        <li id="occ_1">sorties : <input type="number" class="depence" value="0"></li>
+
+    </ul>
+
+    <ul>
+        <h2>autres</h2>
+        <li id="other"><input type="number" class="depence" value="0"></li>
+    </ul>
+
+
+    <h1>recette</h1>
+    <ul>
+        <li id="rec_1">salaire : <input type="number" value="0" class="recet"></li>
+        <li id="rec_2">vos aides : <input type="number" value="0" class="recet"></li>
+        <li id="rec_3">vos rentes : <input type="number" value="0" class="recet"></li>
+        <li id="rec_4">autres : <input type="number" value="0" class="recet"></li>
+    </ul>
+    <h1>épargne</h1>
+    <ul>
+        <li id="epar">vos épargnes : <input type="number" value="0"></li>
+    </ul>
+
+
+    <h1>résultat</h1>
+    <div id="resultat"></div>
+    <button id="btn_reset">calcul</button>
+    <button id="btn">reset</button>
+</div>
+
+<script src="base.js"></script>
+</body>
+</html>
